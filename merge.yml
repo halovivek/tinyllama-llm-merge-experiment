@@ -1,0 +1,12 @@
+merge_method: linear
+
+models:
+  - model: models/tinyllama_chat
+    parameters:
+      weight: 0.6
+
+  - model: models/tinyllama_base
+    parameters:
+      weight: 0.4
+
+dtype: float16
